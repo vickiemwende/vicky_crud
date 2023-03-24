@@ -1,5 +1,5 @@
-from django.db import models
 
+from django.db import models
 class People(models.Model):
     name = models.CharField(max_length=30, blank=False, null=False)
     email = models.CharField(max_length=30, blank=False, null=False)
